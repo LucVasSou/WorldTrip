@@ -7,14 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
-interface SliderProps {
-  continents:{
-    slug: string;
-    title: string;
-    summary: string;
-    image: string;
-  }[]
-}
+
 
 
 export default function Slider() {
