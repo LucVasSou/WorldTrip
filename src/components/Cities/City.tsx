@@ -1,0 +1,233 @@
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+
+export default function City() {
+  return (
+    <>
+    <Box
+      borderRadius="4px"
+      overflow="hidden">
+      <Image
+        src="/londres.jpg"
+        alt="Londres, Reino Unido"
+        h="170px"
+        w="100%"
+      />
+      <Flex
+        p="6"
+        align="center"
+        justify="space-between"
+        bg="white" border="1px"
+        borderColor="yellow.300"
+        borderTop="0"
+      >
+        <Flex
+          direction="column"
+        >
+          <Heading
+            fontSize="xl"
+            fontWeight="500"
+          >
+            Londres
+          </Heading>
+          <Text
+            mt="3"
+            fontSize="md"
+            color="gray.500"
+            fontWeight="500"
+          >
+            Reino Unido
+          </Text>
+        </Flex>
+        <Image
+          src="/bandeirareinounido.png"
+          alt="Bandeira do Reino Unido"
+          w="30px"
+          h="30px"
+          borderRadius="50%"
+          objectFit="cover"
+        />
+      </Flex>
+    </Box>
+    <Box
+    borderRadius="4px"
+    overflow="hidden">
+    <Image
+      src="/paris.png"
+      alt="Paris, França"
+      h="170px"
+      w="100%"
+    />
+    <Flex
+      p="6"
+      align="center"
+      justify="space-between"
+      bg="white" border="1px"
+      borderColor="yellow.300"
+      borderTop="0"
+    >
+      <Flex
+        direction="column"
+      >
+        <Heading
+          fontSize="xl"
+          fontWeight="500"
+        >
+          Paris
+        </Heading>
+        <Text
+          mt="3"
+          fontSize="md"
+          color="gray.500"
+          fontWeight="500"
+        >
+          França
+        </Text>
+      </Flex>
+      <Image
+        src="/bandeirafranca.png"
+        alt="Bandeira da França"
+        w="30px"
+        h="30px"
+        borderRadius="50%"
+        objectFit="cover"
+      />
+    </Flex>
+  </Box>
+  <Box
+    borderRadius="4px"
+    overflow="hidden">
+    <Image
+      src="/roma.png"
+      alt="Roma, Itália"
+      h="170px"
+      w="100%"
+    />
+    <Flex
+      p="6"
+      align="center"
+      justify="space-between"
+      bg="white" border="1px"
+      borderColor="yellow.300"
+      borderTop="0"
+    >
+      <Flex
+        direction="column"
+      >
+        <Heading
+          fontSize="xl"
+          fontWeight="500"
+        >
+          Roma
+        </Heading>
+        <Text
+          mt="3"
+          fontSize="md"
+          color="gray.500"
+          fontWeight="500"
+        >
+          Itália
+        </Text>
+      </Flex>
+      <Image
+        src="/bandeiraitalia.png"
+        alt="Bandeira da Itália"
+        w="30px"
+        h="30px"
+        borderRadius="50%"
+        objectFit="cover"
+      />
+    </Flex>
+  </Box>
+  <Box
+    borderRadius="4px"
+    overflow="hidden">
+    <Image
+      src="/praga.png"
+      alt="Praga, República Checa"
+      h="170px"
+      w="100%"
+    />
+    <Flex
+      p="6"
+      align="center"
+      justify="space-between"
+      bg="white" border="1px"
+      borderColor="yellow.300"
+      borderTop="0"
+    >
+      <Flex
+        direction="column"
+      >
+        <Heading
+          fontSize="xl"
+          fontWeight="500"
+        >
+          Praga
+        </Heading>
+        <Text
+          mt="3"
+          fontSize="md"
+          color="gray.500"
+          fontWeight="500"
+        >
+          República Checa
+        </Text>
+      </Flex>
+      <Image
+        src="/bandeirarepublicacheca.png"
+        alt="Bandeira da República Checa"
+        w="30px"
+        h="30px"
+        borderRadius="50%"
+        objectFit="cover"
+      />
+    </Flex>
+  </Box>
+  <Box
+    borderRadius="4px"
+    overflow="hidden">
+    <Image
+      src="/amsterda.png"
+      alt="Amsterdã, Holanda"
+      h="170px"
+      w="100%"
+    />
+    <Flex
+      p="6"
+      align="center"
+      justify="space-between"
+      bg="white" border="1px"
+      borderColor="yellow.300"
+      borderTop="0"
+    >
+      <Flex
+        direction="column"
+      >
+        <Heading
+          fontSize="xl"
+          fontWeight="500"
+        >
+          Amsterdã
+        </Heading>
+        <Text
+          mt="3"
+          fontSize="md"
+          color="gray.500"
+          fontWeight="500"
+        >
+          Holanda
+        </Text>
+      </Flex>
+      <Image
+        src="/bandeiraholanda.png"
+        alt="Bandeira da Holanda"
+        w="30px"
+        h="30px"
+        borderRadius="50%"
+        objectFit="cover"
+      />
+    </Flex>
+  </Box>
+  </>
+  )
+}
